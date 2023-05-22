@@ -32,7 +32,6 @@
     <AppSearch />
     <ResultMessage />
     <CharacterList />
-    
   </main>
 
 </template>
@@ -45,4 +44,5 @@
     background-color:#D48F38;
     height: 100%;
   }
+
 </style>
