@@ -22,7 +22,7 @@
   
   .card{
     margin-inline: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     width: 18%;
     background-color:#D48F38;
     font-family: Arial, Helvetica, sans-serif;

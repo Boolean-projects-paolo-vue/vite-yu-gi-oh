@@ -3,7 +3,14 @@
 </script>
 
 <template>
-  <div class="search"><input type="text"></div>
+    <div class="search">
+        <select id="menu" name="opzioni">
+            <option value="opzione1">Opzione 1</option>
+            <option value="opzione2">Opzione 2</option>
+            <option value="opzione3">Opzione 3</option>
+            <option value="opzione4">Opzione 4</option>
+        </select>
+    </div>
 </template>
 
 <style lang="scss" scoped>

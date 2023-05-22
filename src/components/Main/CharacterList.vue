@@ -1,5 +1,6 @@
 <script>
     import CharacterCard from './CharacterCard.vue';
+    import ResultMessage from "./ResultMessage.vue";
     import { store } from '../../store';
     export default {
         data() {
@@ -9,12 +10,13 @@
         },
         components: {
             CharacterCard,
+            ResultMessage,
         }
     }
 </script>
 
 <template>
-    <div class="found"><div class="sub_found">hei</div></div>
+    <div class="found"><div class="sub_found" style="font-weight: 700; font-size: 12px;"><ResultMessage /></div></div>
     <div class="card_container">
         <CharacterCard v-for="character in store.CharacterList" 
         :key="character.id"
@@ -51,6 +53,9 @@
         width: 94%;
         background-color: black;
         height: 100%;
+        padding-inline: 1rem;
+        display: flex;
+        align-items: center;
     }
 
     

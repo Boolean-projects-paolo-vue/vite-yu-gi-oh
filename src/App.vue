@@ -1,7 +1,6 @@
 <script>
   import AppSearch from "./components/Main/AppSearch.vue";
   import CharacterList from "./components/Main/CharacterList.vue";
-  import ResultMessage from "./components/Main/ResultMessage.vue";
   import axios from 'axios';
   import { store } from "./store"
 
@@ -14,7 +13,6 @@
     components: {
       AppSearch, 
       CharacterList,
-      ResultMessage,
     },
     created() {
     axios
