@@ -36,6 +36,7 @@
         justify-content: center;
         padding-inline: 1rem;
         text-align: center;
+        padding-bottom:1rem;
     }
 
     .found{
