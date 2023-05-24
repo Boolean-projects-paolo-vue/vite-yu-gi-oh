@@ -25,6 +25,8 @@
         axios
           .get('https://db.ygoprodeck.com/api/v7/cardinfo.php?', {
             params: {
+              num: 20,
+              offset: 0,
               archetype: this.store.SearchArr,
             }
           })
@@ -37,7 +39,7 @@
     this.requestDataFromApi();
 
     axios
-      .get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=105&offset=0')
+      .get('https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0')
       .then(response => ( this.store.CharacterList = response.data.data ));
     },
   };
